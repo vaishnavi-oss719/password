@@ -2,9 +2,12 @@
 body {
   font-family: Arial, sans-serif;
   background: #b04135;
-  background: linear-gradient(17deg, rgba(176, 65, 53, 1) 12%, rgba(9, 9, 121, 1) 99%);
+  background: linear-gradient(18deg, rgba(176, 65, 53, 1) 12%, rgba(9, 9, 121, 1) 100%);
   margin: 0;
   padding: 0;
+  height: 100vh;
+  margin-top: 20px;
+  align-items: center;
 }
 
 /* Form container for all pages */
@@ -12,10 +15,11 @@ body {
   max-width: 400px;
   margin: 80px auto;
   padding: 30px;
-  background-color: #ffffff;
+  background-color: #cbb7b7;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin-bottom: 90px;
 }
 
 /* Headings */
@@ -40,7 +44,7 @@ body {
   width: 100%;
   padding: 12px;
   margin-top: 15px;
-  background-color: #4caf50;
+  background-color: #c52222;
   color: white;
   font-size: 16px;
   border: none;
@@ -50,18 +54,18 @@ body {
 }
 
 .form-container button:hover {
-  background-color: #45a049;
+  background-color: #a04242;
 }
 
 /* Links under form */
 .form-container p {
   margin-top: 15px;
   font-size: 14px;
-  color: #555555;
+  color: #0f0e0e;
 }
 
 .form-container p a {
-  color: #4caf50;
+  color: #0f100f;
   text-decoration: none;
   font-weight: bold;
 }
